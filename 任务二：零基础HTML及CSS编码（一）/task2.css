@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	width: 100%;
+}
+#header{
+	background: #313131;
+	width: 100%;
+	overflow: hidden;
+}
+.logo{
+	padding-left: 45px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+}
+.nav ul{
+	padding-left: 880px;
+	padding-top: 20px;
+	margin: 0;
+}
+.nav li{
+	float: left;
+	margin: 0 15px;
+}
+.nav li a{
+	display: block;
+	text-decoration: none;
+}
+.current1{
+	color: white;
+} 
+.current2{
+	color: #c4c4c4;
+} 
+#main{
+	background: #ddd;
+	overflow: hidden;
+}
+.first, .another, .photo, .last, .sidebar{
+	margin: 20px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 3px solid #848484;
+	border-bottom: 3px solid #848484;
+	padding: 20px;
+	background: #fff;
+}
+.another li{
+	list-style: none;
+}
+.photoborder{
+	border: 1px solid #ccc;
+	width: 150px;
+	margin-left: 48px;
+	margin-bottom: 20px;
+	padding: 12px;
+}
+.photoborder p{
+	text-align: center;
+	margin: 0;
+	margin-bottom: 15px;
+}
+.photoborder img{
+	width: 100%;
+	height: 100%;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border: #dbdbdb;
+}
+.thead{
+	background: #333333;
+	color: white; 
+}
+.tfoot{
+	background: #dbdbdb;
+}
+.sidebar h2{
+	font-size: 18px;
+}
+.tleft{
+	width: 30%;
+	text-align: right;
+	
+	padding-right: 15px;
+}
+/*.tleft p{
+	display: block;
+}*/
+.tright{
+	width: 70%;
+}
+#footer{
+	text-align: center;
+	background: black;
+}
+#footer p{
+	margin: 0;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	font-size: 14px;
+}
+h3,h4{
+	color: #7f7f7f;
+}
+h4{
+	font-size: 15px;
+	font-style: normal;
+}
+p,h4{
+	font-family:"微软雅黑",Georgia,Serif;
+}

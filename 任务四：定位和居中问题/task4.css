@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	/*position: relative;*/
+}
+.quarter-circle1{
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	border-radius: 0 0 50px 0;
+}
+.quarter-circle2{
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	border-radius: 50px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

@@ -1,0 +1,383 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5{
+	font-size: 12px;
+	font-weight: normal;
+}
+#wrap{
+	width: 980px;
+	height: 1386px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+#header,#main,#footer{
+	width: 892px;
+	margin: 0 40px;
+}
+.sub1{
+	width: 110px;
+	height: 61px;
+	background: #d45c5b;
+}
+.sub1 p{
+	font-size: 12px;
+	font-family: "黑体";
+	color: #fff;
+	padding-top: 44px;
+	padding-left: 5px;
+}
+.date{
+	font-size: 12px;
+	font-family: "黑体";
+	color: #d45d5c;
+	text-align: right;
+	margin-top: -15px;
+}
+.boundary{
+	height: 2px;
+	background: #938e8c;
+	margin-top: 1px;
+}
+.sub2{
+	margin-top: 35px;
+	position: relative;
+}
+.sub2_l{
+	width: 641px;
+	height: 301px;
+	position: relative;
+}
+.sub2_l1{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sub2_l2{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/*.sub2_l1{
+	width: 191px;
+	height: 301px;
+	background: #a2c5ad;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+}
+.sub2_l2{
+	width: 191px;
+	height: 301px;
+	background: #e6bcc0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0.5;
+}*/
+.sub2_r{
+	width: 203px;
+	margin-left: 48px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sub2_rb{
+	height: 2px;
+	background: #cc8091;
+}
+.sub2_r h1{
+	font-size: 24px;
+	color: #000;
+	font-family: "Microsoft YaHei";
+	text-decoration: underline;
+	line-height: 40px;
+}
+.sub2_r h2{
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	line-height: 10px;
+}
+.sub2_r h3{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: "Microsoft YaHei";
+	font-style: italic;
+}
+.sub2_r h4{
+	font-size: 55px;
+	color: #cc8091;
+	font-family: "Microsoft YaHei";
+}
+.sub2_rc{
+	position: relative;
+	margin-top: -12px;
+}
+.sub2_rcr{
+	position: absolute;
+	left: 90px;
+	bottom: 12px;
+}
+.sub2_rcr h5{
+	font-size: 21px;
+	color: #cc8091;
+	font-family: "Microsoft YaHei";
+}
+.sub2_rcr p{
+	font-size: 12px;
+	color: #cc8091;
+	font-family: "Microsoft YaHei";
+}
+.sub3{
+	width: 641px;
+	margin-top: 34px;
+	overflow: hidden;
+}
+.sub3_l{
+	float: left;
+	width: 230px;
+	margin-right: 24px;
+}
+.sub3_l h1{
+	font-size: 16px;
+	color: #418c59;
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 8px;
+}
+.sub3_l p{
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+}
+.sub3_m{
+	float: left;
+	width: 206px;
+	margin-right: 27px;
+}
+.sub3_m h1{
+	font-size: 16px;
+	color: #d2994f;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 8px;
+}
+.sub3_m p{
+	font-size: 12px;
+	color: #231815;
+	font-family: "Microsoft YaHei";
+	line-height: 16px;
+	opacity: .7;
+}
+.sub3_r{
+	float: left;
+	width: 133px;
+}
+.sub3_r h1{
+	font-size: 16px;
+	color: #cc7680;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 8px;
+}
+.sub3_r p{
+	font-size: 12px;
+	color: #231815;
+	font-family: "Microsoft YaHei";
+	line-height: 20px;
+}
+.sub3_rc{
+	margin-top: 20px;
+}
+.sub3_rc p span{
+	font-size: 12px;
+	color: #cd4a48;
+	font-family: "Microsoft YaHei";
+	line-height: 16px;
+	font-style: italic;
+	opacity: .7;
+}
+.sub4{
+	margin-top: 70px;
+}
+.sub4_l{
+	width: 415px;
+	float: left;
+}
+.sub4_l1 h1{
+	font-size: 42px;
+    line-height: 42px;
+    font-family: "黑体";
+    color: #11456b;
+    font-weight: bold;
+}
+.sub4_l1 h1 span{
+	font-size: 72px;
+	color: #f5e327;
+	font-family: "黑体";
+	font-style: italic;
+}
+.sub4_l1 h2{
+	font-size: 33px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+	margin: 8px 0 12px 0;
+}
+.sub4_l hr{
+	background: #11456b;
+	height: 2px;
+	margin-bottom: 10px;
+}
+.sub4_l2 span{
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "Microsoft YaHei";
+}
+.sub4_l p{
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+}
+ .sub4_l2c1{
+ 	margin-left: 77px;
+ 	margin-top: -77px;
+ }
+ .sub4_l2 img{
+ 	float: right;
+ 	margin: 18px 8px 12px 18px;
+ }
+ .sub4_l2c2{
+ 	text-indent: 2em;
+ }
+ .sub4_r1{
+	width: 458px;
+	float: right;
+ }
+.sub4_r1p{
+	width: 458px;
+	height: 61px;
+	background: #9b9999;
+	margin-top: -64px;
+	opacity: .9;
+}
+.sub4_r1p h1{
+	display: inline-block;
+	font-size: 26px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	margin: 13px 5px 0 45px;
+	padding-left: 8px;
+	border-left: 3px solid blue;
+}
+.sub4_r1p h2{
+	display: inline-block;
+	font-size: 12px;
+	color: blue;
+	font-family: "Microsoft YaHei";
+	font-style: italic;
+	line-height: 140%;
+}
+.sub4_r2{
+	width: 459px;
+	height: 318px;
+	background: #eeedd6;
+	float: right;
+	margin-top: 36px;
+	position: relative;
+}
+.sub4_r2 p{
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	text-align: left;
+	line-height: 20px;
+	padding: 20px 0 0 50px;
+}
+.sub4_r2 span{
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	font-style: italic;
+	text-align: right;
+	line-height: 20px;
+}
+.sub4_r2l{
+	display: inline-block;
+	width: 260px;
+	height: 160px;
+	background: #d45d5c;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.sub4_r2lp h1{
+	display: inline-block;
+	font-size: 110px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	padding: 7.5px 0 5px 12px;
+}
+.sub4_r2lpr{
+	height: 86px;
+	border-left: 2px solid #fff;
+	padding-left: 5px;
+	position: absolute;
+	left: 84px;
+	top: 40px;
+}
+.sub4_r2lpr h2{
+	font-size: 21px;
+	color: #fff;
+	font-family: "黑体";
+	font-style: italic;
+	line-height: 24px;
+}
+.sub4_r2lpr h3{
+	font-size: 12px;
+	color: #fff;
+	font-family: "黑体";
+	line-height: 12px;
+	margin-top: 5px;
+}
+.sub4_r2r{
+	width: 198px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.sub4_r2rp{
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: "黑体";
+	font-style: italic;
+	line-height: 16px;
+	width: 170px;
+	margin: 40px 0 0 15px;
+}
+.sub4_r2r .ql{
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: "黑体";
+	font-style: normal;
+	line-height: 0;
+	margin: 1px 12px 0 -40px;
+	float: left;
+}
+.sub4_r2r .qr{
+	display: inline-block;
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: "黑体";
+	font-style: normal;
+	line-height: 0;
+	margin: 36px -32px 0 0;
+	float: right;
+}

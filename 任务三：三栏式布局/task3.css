@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;	
+}
+#wrap{
+	border: 1px solid #999;
+	background: #eee;
+	margin: 20px;
+	padding: 20px;
+	overflow: hidden;
+}
+#left{
+	width: 200px;
+	border: 1px solid #999;
+	background: #fff;
+	float: left;
+}
+.logo1{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	background: #eee;
+	margin: 20px;
+	text-align: center;
+}
+#left span{
+	position: relative;
+	top: -24px;
+}
+#right{
+	width: 120px;
+	border: 1px solid #999;
+	background: #fff;
+	float: right;
+}
+.logo2{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	background: #eee;
+	margin: 20px;
+	text-align: center;	
+}
+#content{
+	border: 1px solid #999;
+	padding: 20px;
+	background: #fff;
+	margin-left: 222px;
+	margin-right: 142px;
+}
+p{
+	text-indent: 2em;
+}
